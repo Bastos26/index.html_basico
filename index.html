@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>página principal</title>
+        <meta charset="UFT-8"/>
+        <link rel="stylesheet" href="../html basico/galeria/style.css">
+    </head>
+    <BODY>
+        <div id="Introduçâo">     
+        <h1>html básico</h1>
+        <h2>Resumo básico sobre o módulo de HTML básico com observações com o intuito de por em prático aquilo que foi passado .</h2>
+        </div>
+        <figure>
+            <img alt="imagem sobre programaçâo html" src="../imagem html.jpg"  width="300" height="200"/>
+            
+        </figure>
+        <br>
+        <h4>Índice</h4>
+<ul>
+<li><a href=#"Introduçâo">introdução</a></li>
+<li><a href="#elemento html">elemento html</a></li>
+<li><a href="#Estrutura básica do HTML">Estrutura básica do HTML</a></li>
+<li><a href="#meta,title,atributos e TAG de autofechamento">meta,title e Tag de auto fechamento</a></li>
+<li><a href="#Título,paágrafo e semântica">Título,paágrafo e semântica</a></li>
+<li><a href="#comentários">comentários</a></li>
+<li><a href="#links">links</a></li>
+</ul>
+<br>
+<br>
+        <h3>Introduçâo</h3>
+        <p>O HTML foi criado em 1991 para suprir uma necessidade que os cientistas tinham para compartilhar documentos de forma fácil através da internet entre as instituiçôes de ensino.</p>
+        <p>Existia a dificuldade de se enviar documentos e arquivos pois o computador não conseguia distinguir títulos , parágrafos,pontos continuativos e finais .</p>
+        <p>As <ins>TAGS</ins> servem para ajudar o PC a entender melhor as linhas e facilitar sua vida.Ná prática,na hora da programaçâo,a maneira que se usa as  TAGs <ins>é usando os sinais < (maior quê) e > (menor quê) e ,entre elas,o nome da TAG que se deseja usar </ins></p>
+        <p>Uma outra necessidade é informar ao computador até onde as TAGs se encerram .Para isso ,existe as <mark>TAGs de fechamento</mark>,onde a  única diferença das TAGs de abertura é a necessidade de por o sinal de barra ( / ) logo após o sinal de menos quê</p>
+         <div id="elemento html"></div>
+        <h3>Elemento html</h3>
+        <p>Elemento html sempre vai ser tudo aquilo que você precisa para representar alguma coisa(parágrafo,títulos,imagens e etc..)</p>
+        <p>Os elementos sao formados por:<b> < nome da TAG > ( TAG de abertura)  conteúdo   </ nome da TAG > (TAG de fechamento) </b></p>
+        <div id="Estrutura básica do HTML">
+        </div>
+        <h3>Estrutura básica do HTML</h3>
+        <P>Para se começar  a criar a sua primeira página WEB, a primeira coisa que se precisa fazer é dizer ao navegador como ele deve interpretar a página:</P>
+        <ul>
+            <li>< !DOCTYPE HTML ></li>
+            <P>Isso é a primeira coisa que se faz .Quando se faz isso,você está dizendo para o seu navegador que todo o resto que estiver dentro desta página ,ele precisa interpretar <ins>como html 5 </ins>,a versão mais atualizada e é provável que se veja com bastante frequência no mercado</P>
+            <li> < html ></ html ></li>
+            <p>Diz onde começa e termina sua página</p>
+            <li>< head >< / head ></li>
+            <p> Indicará tudo que seu computador precisa saber para carregar a sua página corretamente.É aqui onde se coloca o título que o naavegador vai indicar na aba da página acessada </p>
+            <li>< body ></ body ></li>
+            <p>Vai entrar tudo que você precisa mostrar para o usuário dentro da página: textos,imagens,links... , tudo que se precisa mostrar ao usuário dentro da página. </p>
+        </ul>
+        <h4>Então, a estrutura básica do html e sua hierarquia é :</h4>
+        <ol>
+            <li> < !doctype html ></li>
+            <li>< html ></li>
+            <li>< head ></li>
+            <p><b>conteúdo</b></p>
+            <li> < /head></li>
+            <li>< body></li>
+            <p><b>conteúdo</b></p>
+            <li> < /body></li>
+            <li> < /html></li> 
+        </ol>
+        <div id="meta,title,atributos e TAG de autofechamento">
+        </div>
+            <h3>Meta,title,atributos e TAG de auto fechamento</h3>
+        <ul>
+            <li>title</li>
+           
+            <p>É título em inglês,ele é uma TAG filho da HEAD e é nela que usamos para fazer o elemento HTML e nomear a barra da navegaçâo .No caso,iria aparecer um BUG devido o ascento agudo e temos que concertar</p>
+            <h4>exemplo:</h4>
+            <p> < !doctype html ></p>
+            <p> < html ></p>
+            <p> < head ></p>
+            <p>< title > exemplo < / title > </p>
+            <p>< / head > </p>
+            <p>< body ></p>
+            <p> < / body></p>
+            <p>< / html ></p>
+        </ul>
+       
+            <ul>
+            <li> < meta charset="UFT-8" > </li>
+            <p> O  navegador não conseguia interpretar o ´´pá´´  da palavra página devido o ascento agudo e, então , precisamos dizer ao programa em qual alfabeto ele precisa se basear ,já que a nossa língua possue muitos ascentos . Essa TAG em questão é diferento que todos os elementos que se viu antes , onde se tem uma TAG de abertura , conteúdo e de fechamento. Essa TAG se chama <ins> self closing TAG</ins> ( uma TAG que se fecha em si mesma),ela não tem nenhum conteúdo ela somente serve para dizer ao navegador como ele deve interpretar algo ,no exemplo atual ,como ele deve interpretrar o alfabeto portugues brasileiro.</p>
+            <h4>exemplo:</h4>
+            <p> < !doctype html ></p>
+            <p> < html ></p>
+            <p> < head ></p>
+            <p>< title > exemplo < / title > </p>
+            <p> < meta charset = ´´ uft-8´´ > </p>
+            <p>< / head > </p>
+            <p>< body ></p>
+            <p> < / body></p>
+            <p>< / html ></p>   
+         <li>atributo</li>
+            <p>Um atributo sempre vai ser tipo uma palavra chave ou algo do gênero ,que sempre vai entar antes do <ins>maior quê ( > ) de uma TAG de auto-fechamento</ins>.O atributo não é exclusivo para uma TAG de auto fechamento , qualquer TAG pode se usar mas elas podem variar ,é possível que funcione em uma TAG mas não em outra .</p>
+            <li>charset</li>
+            </ul>
+            <p>É um atríbuto que serve justamente para informar que tipo de caractér ou alfabeto que se utiliza.<ins>UFT=8</ins> é o tipo ou formato de alfabeto ou caracter que queremos usar . </p>
+       <div id="Título,paágrafo e semântica">
+       </div>
+        <h3>Título,parágrafo e semântica</h3>
+        <p>Quando se trata sobre a formação do conteúdo da página , toda a operação se faz dentro do <ins> BODY</ins></p>
+        <ul>
+            <li>HeadLine</li><p>Esse é o nome para título em inglês reprensentada pela TAG < h >.É muito comum utilizar a primeira letra da palavra em inglês </p>
+            <li>Paragraph</li><p>É o nome parágrafo em inglês e se utiliza usando a TAG  < p ></p>
+            <li>Semântica</li<p>(h1,2,3,4,5,6).Essa numeração não é somente referente ao tamanho da TAG (<ins>HeadLine</ins>),é tambem referente ao grau de impotância que seu navegador vai dar para sua página.<br>Quando buscamos sobre algo no navegador ,geralmente botamos a palavra chave referênte ao assunto ou tema que se deseja pesquisar<br> exemplo:</p>>          
+        </ul>
+        <p>No client side , foi pesquisado : jogar futebol</p>
+        <p>E os resultados seriam...</p>
+        <ol>
+        <li>Página 1 </li>
+        <h1>Como jogar futball</h1>
+        <h2>Alguns paços para se melhorar no futball</h2>
+        <p>,,,,,,,,,,(restante do conteúdo da página),,,,,</p>
+        <li>Página 2</li>
+        <h1>Melhore no futball</h1>
+        <h2>Alguns paços para se melhorar no futball</h2>
+        <p>,,,,,,,,,,,(restante do conteúdo da página),,,,,</p>
+        </ol>
+        <p>No exemplo, o navegador iria sugerir a <mark>Página 1</mark> ,porque ele se baseia nas TAGs mais importântes (com maior semântica)e as que chegam o mais próximo possivel das palavrs que foram usadas no client side.</p>
+<ul>
+    <li>H1 É o mais importante</li>
+    <li>H2 É a segunda mais importante e assim por diante....</li>
+</ul>
+<div id="comentários">
+</div>
+<h3>Comentário</h3>
+<p>Comentário são textos que estão na programação mas não aparecem ,geralmente servem como lembrete para você quando for rever ou fazer alguma manutenção no server side ou até mesmo para se comunicar com outros programadores quando você jogar o seu projeto no ar.</p>
+<p> A TAG do comentário é : < !--o conteúdo que deseja--></p>
+<br>
+
+<div id="links">
+</div>
+<h4>vejamos alguns temas que se vê quando estudamos HTML</h4>
+        <ul>
+        <a href="http://127.0.0.1:5500/html%20basico/link.html" target="_blank"> <li>sobre link</li></a>
+        <br>
+        <a href="/html basico/fomaçâo de texto.html" target="_blank"><li>fomaçâo de texto</li></a>
+        <br>
+        <a href="./imagem.html" target="_blank"><li>sobre imagem</li></a>
+        <br>
+        <a href="./lista.html" target="_blank"><li>sobre listas</li></a>
+        </ul>
+<!--carcaça do projeto html básico-->
+
+</bodY>
+</html>
