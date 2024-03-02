@@ -1,0 +1,28 @@
+/*p{
+    color: aliceblue;
+    background-color: black;
+}
+#testecss{
+    color: brown;
+    background-color: chartreuse;
+}
+.testecss2{
+    color: chartreuse;
+    background-color: black;
+}
+#testecss4{
+    color: black;
+    background-color: rgb(26, 23, 221);
+    height: 900;
+    width: 900;
+}
+.testecss5{
+    background-color: black;
+}
+body{
+    background-image: url("./raposa\ no\ estilo.jpg");
+    
+    
+}*/
+body{background-color: rgb(0, 0, 0);
+color: rgb(250, 249, 249);}

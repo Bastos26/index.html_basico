@@ -4,17 +4,22 @@
     <head>
         <title>página principal</title>
         <meta charset="UFT-8"/>
-        <link rel="stylesheet" href="../html basico/galeria/style.css">
+        <!---exemplo css externo-->
+        <link rel="stylesheet" href="./galeria/teste2.css">
+        <!---exemplo de css interno-->
+        <!---<style>
+            p,h1,h2,h3,h4,ul,li
+            {color: aliceblue;
+            background-color: black;}
+        </style>--->
     </head>
     <BODY>
 
-        <!--resumo rápido do projeto com imagem -->
-        <div id="Introduçâo">     
-        <h1>html básico</h1>
+        <!--resumo rápido do projeto com imagem -->     
+        <h1> html básico</h1>
         <h2>Resumo básico sobre o módulo de HTML básico com observações com o intuito de por em prático aquilo que foi passado .</h2>
-        </div>
         <figure>
-            <img alt="imagem sobre programaçâo html" src="../imagem html.jpg"  width="300" height="200"/>
+            <img alt="imagem sobre programaçâo html" src="../html basico/galeria/imagem html.jpg"  width="300" height="200"/>
             <figcaption>imagem ilustrativa sobre html</figcaption>
         </figure>
         <!--final-->
@@ -22,12 +27,16 @@
 
         <!--links das partes do projeto para melhorar a interação do usuario-->
         <h4>Índice</h4>
+        <!---exemplo css inline
+            <link rel="stylesheet" href="../html basico/galeria/style.css">
+        -->
 <ul>
-<li><a href=#"Introduçâo">introdução</a></li>
+    <!--falar um poucosobre a internet -->
+<li><a href="#introdução">introdução</a></li>
 <li><a href="#elemento html">elemento html</a></li>
 <li><a href="#Estrutura básica do HTML">Estrutura básica do HTML</a></li>
 <li><a href="#meta,title,atributos e TAG de autofechamento">meta,title e Tag de auto fechamento</a></li>
-<li><a href="#Título,paágrafo e semântica">Título,paágrafo e semântica</a></li>
+<li><a href="#Título,parágrafo e semântica">Título,parágrafo e semântica</a></li>
 <li><a href="#comentários">comentários</a></li>
 <li><a href="#links">links</a></li>
 </ul>
@@ -36,6 +45,7 @@
 <br>
 <!--introdução da matéria com seus conceitos e listas não ordenadas do passo a passo para os primeiros comandos -->
         <h3>Introduçâo</h3>
+        <div id="introdução" ></div>
         <p>O HTML foi criado em 1991 para suprir uma necessidade que os cientistas tinham para compartilhar documentos de forma fácil através da internet entre as instituiçôes de ensino.</p>
         <p>Existia a dificuldade de se enviar documentos e arquivos pois o computador não conseguia distinguir títulos , parágrafos,pontos continuativos e finais .</p>
         <p>As <ins>TAGS</ins> servem para ajudar o PC a entender melhor as linhas e facilitar sua vida.Ná prática,na hora da programaçâo,a maneira que se usa as  TAGs <ins>é usando os sinais < (maior quê) e > (menor quê) e ,entre elas,o nome da TAG que se deseja usar </ins></p>
@@ -102,11 +112,11 @@
             <p> < / body></p>
             <p>< / html ></p>   
          <li>atributo</li>
-            <p>Um atributo sempre vai ser tipo uma palavra chave ou algo do gênero ,que sempre vai entar antes do <ins>maior quê ( > ) de uma TAG de auto-fechamento</ins>.O atributo não é exclusivo para uma TAG de auto fechamento , qualquer TAG pode se usar mas elas podem variar ,é possível que funcione em uma TAG mas não em outra .</p>
+            <p id="testecss">Um atributo sempre vai ser tipo uma palavra chave ou algo do gênero ,que sempre vai entar antes do <ins>maior quê ( > ) de uma TAG de auto-fechamento</ins>.O atributo não é exclusivo para uma TAG de auto fechamento , qualquer TAG pode se usar mas elas podem variar ,é possível que funcione em uma TAG mas não em outra .</p>
             <li>charset</li>
             </ul>
-            <p>É um atríbuto que serve justamente para informar que tipo de caractér ou alfabeto que se utiliza.<ins>UFT=8</ins> é o tipo ou formato de alfabeto ou caracter que queremos usar . </p>
-       <div id="Título,paágrafo e semântica">
+            <p class="testecss2">É um atríbuto que serve justamente para informar que tipo de caractér ou alfabeto que se utiliza.<ins>UFT=8</ins> é o tipo ou formato de alfabeto ou caracter que queremos usar . </p>
+       <div id="Título,parágrafo e semântica">
        </div>
         <h3>Título,parágrafo e semântica</h3>
         <p>Quando se trata sobre a formação do conteúdo da página , toda a operação se faz dentro do <ins> BODY</ins></p>
@@ -150,7 +160,16 @@
         <li><a href="./imagem.html" target="_blank">sobre imagem</a></li>
         <li><a href="./lista.html" target="_blank">sobre listas</a></li>
         <li><a href="langediv.html" target="_blank">lang e div</a></li>    
+        <br>
+        <li><a href="./teste.html" target="_blank">nada importante,só uma pasta que fiz para relelembrar as coisas </a></li>
     </ul>
+        <p id="testecss4">ó mais um teste</p>
+        <div class="testecss5">
+            <a href="https://www.youtube.com/watch?v=eCLthWcwC60">link para um guia de estudos para iniciantes do curso em vídeo</a>
+
+        </div>
+        
+
 <!--final-->
 
 
