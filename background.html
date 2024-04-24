@@ -16,9 +16,12 @@
             <h3><li>background-image</li></h3>
             <p class="imagemteste"></p>
             <p>Com ela você utiliza uma imagem para aplicar no fundo.Assim como se introduz a imagem o html,no background image somente é possivel inserir com o endereço da imagem na web ou linkando com o arquivo no projeto</p>
-            <li>obs:se é preciso usar o <mark> URL</mark> para ajudar a achar o arquivo</li>
         </ul>
+        <br>
+        <h3><ins>obs:</ins> é preciso usar o <mark> URL</mark> para ajudar a achar o arquivo</h3>
+        <br>
         <h3><ins>obs:</ins>as dimensôes (width e heigth)são muito importantes . É a partir deles que vamos dizer o tamanho que queremos a imagem , cor de fundo e etc e sem eles ,não aparece nada.</h3>
+        <br>
         <h3><ins>obs:</ins>Fundamentos importantes de serem relembrados:</h3>
         <ul>
             <li>1 Para fazer o requerimeto do <ins>Class</ins> no CSS, é necessária usar o ponto( . ).</li>
@@ -27,6 +30,29 @@
            <!--- <p id="teste1"></p>
             <p id="teste2"></p>--->
         </ul>
+        <p>Existem um comportamento padrão , as imagens geralmente possuem uma dimensão especícfica , emtão o computadorr tem a tendência de repetir elas até que seja o suficiente para preencher a dimensão posta no css</p>
+        <p class="imagemrepetindo"></p>
+        <p>Este comportamento é solucionável </p>
+        <br>
+        <h3>background-size</h3>
+        <p>Ele é o que vai nos ajudar a solucionar este problema e nele temos 3 opções:</p>
+        <h4>Alto</h4><p>É o padrão e ele vai pegar o tamanho padrão e vai jogar no projetoe repetir</p>
+        <p class="imagemrepetindo1"></p>
+        <h4>contain</h4>
+        <p>Ele vai esticar a imagem para que o mesmo lado dela consiga cobrir o que precisa </p>
+        <p class="imagemrepetindo2"></p>
+        <p>A imagem perde um pouco de resolução e é pouco cortada</p>
+        <h4>cover</h4>
+        <p>Ele estica aimagem até encaixar </p>
+        <p class="imagemrepetindo3"></p>
+        <p class="testep"></p>
+        <h3>background-repeat</h3>
+        <p>Está é mais uma propriedade onde existe a possibilidade de nos ajudar no problema da repetição da imagem.</p>
+        <br>
+        <p>uma questão que devemos deixar claro é que ainda não nos foi mostrado se existe a possibilidade de modificar a dimensão da imagem,nós apenas esticamos e etc mas ainda não possuimos este poder.Este evento de repetição acontece devido a necessidade que o computador tem de encontrar uma conciliação entre a dimensão que passamos com a dimensão da própria imagem em si .</p>
+        <h4>background-repeat:no-repeat </h4>
+        <p>É o que vamos utilizar para solicionar esta questão da repetição da imagem.ela faz com q a imagem seja introduzida de uma vez somente ,sem modificar suas dimensões. </p>
+        <p class="imagemsemrepetir"></p>
         <a href="./index.html">voltar para a página inicial</a>
     </body>
 </html>
