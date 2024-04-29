@@ -54,5 +54,11 @@ background-color: white;
 height: 400px;
 width: 500px;
 background-repeat: repeat-y;}
+.topodireita{background-color: white;
+width: 500px;
+height: 500px;
+background-image: url("https://www.extensaodeciliosbrazil.com/wp-content/uploads/2023/05/desvendando-o-significado-das-raposinhas-na-biblia-uma-analise-profunda.jpg");
+background-position: top right;
+background-repeat: no-repeat;}
 
 
