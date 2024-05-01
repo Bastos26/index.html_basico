@@ -60,5 +60,29 @@ height: 500px;
 background-image: url("https://www.extensaodeciliosbrazil.com/wp-content/uploads/2023/05/desvendando-o-significado-das-raposinhas-na-biblia-uma-analise-profunda.jpg");
 background-position: top right;
 background-repeat: no-repeat;}
+.topoesquerda{background-color: white;
+width: 500px;
+height: 500px;
+background-image: url("https://www.extensaodeciliosbrazil.com/wp-content/uploads/2023/05/desvendando-o-significado-das-raposinhas-na-biblia-uma-analise-profunda.jpg");
+background-position: top left;
+background-repeat: no-repeat;}
+.inferiordireita{background-color: white;
+width: 500px;
+height: 500px;
+background-image: url("https://www.extensaodeciliosbrazil.com/wp-content/uploads/2023/05/desvendando-o-significado-das-raposinhas-na-biblia-uma-analise-profunda.jpg");
+background-position: bottom right;
+background-repeat: no-repeat;}
+.inferioresquerda{background-color: white;
+width: 500px;
+height: 500px;
+background-image: url("https://www.extensaodeciliosbrazil.com/wp-content/uploads/2023/05/desvendando-o-significado-das-raposinhas-na-biblia-uma-analise-profunda.jpg");
+background-repeat: no-repeat;
+background-position: bottom left;}
+.centro{background-color: white;
+height: 500px;
+width: 500px;
+background-image:url("https://www.extensaodeciliosbrazil.com/wp-content/uploads/2023/05/desvendando-o-significado-das-raposinhas-na-biblia-uma-analise-profunda.jpg");
+background-repeat: no-repeat;
+background-position: center;}
 
 
