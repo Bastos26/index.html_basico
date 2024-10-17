@@ -1,0 +1,69 @@
+body{
+    font-family: "Milonga", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .bordas1{
+    background-color: black;width: 500px; height: 100px;
+    border-color: blue;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+  }
+  .imagem{background-image: url("https://upload.wikimedia.org/wikipedia/pt/a/ae/Kratos_GoW_Ragnarok.jpg");width: 500px;height: 500px;
+background-repeat: no-repeat;
+background-color: black;width: 1000px;height: 1000px;
+background-position: center;
+border-style: groove;
+border-width: 5px;
+border-radius: 15px;
+border-color: blue;
+margin-left: 200px;}
+
+
+a{color: white;background-color: black;
+text-decoration: none;
+font-size: 20px;
+padding: 20px;
+margin: 100px;
+}
+a:hover{
+  padding: 20px;
+}
+
+#backgroundteste{background-color: blue;}
+
+#testetexto{background-color: black;width: 1600px;height: 400px;
+background-image: url("https://i.scdn.co/image/ab67616d00001e023f1c0294dc02df9f59df5b07");
+background-repeat: no-repeat;
+background-position: left;
+color: blanchedalmond;
+width: 300px;
+text-align: center;
+overflow: auto;
+margin-left: 500px;
+}
+a:hover{
+  padding: 20px;
+}
+#papo{background-color: black;color: white;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+}
+li{background-color: aqua;
+margin: 5px;
+border-radius: 5px;}
+#fuzil{
+  background-color: red;
+  text-align: center;
+}
+ul{list-style-position: inside;}
+  
+  
+  
+  
+  
+  

@@ -52,23 +52,21 @@
 <li><h3>Quebra de linha</h3>(< br >)</li>
 <p>Essa TAG é uma TAG de <ins>auto fechamento</ins>.O seu nome em inglês é BreakLine e é dai que se vem as siglas que denominam a TAG.Ela é utilizada quando queremos dizer ao navegador que queremos ir para a proxima linha</p>
     </ol>
-    <h1>unidades de medida</h1>
-    <p class="imagem"></p>
-    <h3>Dentro do CSS temos duas : as <ins>absolutas</ins>(fixas) e as <ins>relativas</ins>.</h3>
-    <ins>obs:Atributos no HTML são certos "auxilios" aos elementos e ,dentro do CSS , os chamamos de propriedades. </ins>
-    <ul>
-        <li>absolutas</li>
-        <p>As unidades de medidas absolutas são as que não precisam ou necessita de nada para sua interpretação.</p>
-        <p >ex: na instrução:"coloque a mesa a 1 metro da parede",não é necessario saber o tamanho da parede , ou lado, ou tamanho da sala e etc , pois um metro não deixa de ser um metro.</p>
-        <p> Quando alteramos a dimensão de algo no HTML,não precisamos identificar a unidade de media pois o próprio já o faz , mas no CSS sim.O ideal é que todo seu estilo (forma,formato,dimensão , fonte e etc)seja tarefa atribuida ao <ins>CSS</ins>.</p>
-        <p>Obs:No CSS , a propriedade só irá funcionar com  unidade de medida</p>
-        <p>As unidades de medida são:</p>
-        <li>CM .centimetros</li>
-        <li>MM .milimetros</li>
-        <li>IN .polegadas( uma in = 96 px que é =2.54cm)</li>
-        <li>PX .pixels(um px = i/96 avos de uma in)</li>
-        <li>PT .pontos(um pt = 1/72 de uma in)</li>
-        <li>PC .pica(uma pc = 12pt)</li>
+    
+        <br>
+        <h1>Unidades De Medida para Fontes</h1>
+        <p>Normalmente , em uma fonte padrão,o tamanho é de 16 px, mas se é possivel alterarmos.Existe a alternativa de se verificar o tamanho com a ferramenta <ins>inspecionar</ins> e logo em seguida ir para computer e ,logo após ,front-size.
+        <h2>Front-size</h2>
+        <p>É o nome da propriedade que altera o tamanho das fontes e seus valores tem a unidade de medida denominadas de <ins>EM</ins> e <ins>REM</ins>.</p>
+        <h3>EM</h3>
+        <p>essa unidade de media ira se basear no tamanho da fonte que determinado elemento devera ter,é em referência ao tamanho da fonte ter,basta colocar o numero de vezes que fosse mltiplicado.</p>
+        <p style="font-size: 3em;">exemplo de texto com EM</p>
+        <br>
+        <h3>REM</h3>
+        <p>16 PX é o tamanho <ins>raiz</ins>,o tamanho mormal que vai ter caso não alterarmos nada .O tamanho raiz vem do <ins>elemento raiz</ins> , que é o proprio HTML, ode toda a estrutura do site (head e body) se encontram e pertencem.REM é a unidade de medida que tem como referência o tamanho do elemento raiz .</p>
+        <p style="font-size: 3rem;">exemplo com REM</p>
+        <p>obs:o REM vai ser a msm coisa pq ambos estão com referência em 16 px</p>
+
     </ul>
     <!--final-->
     <li><a href="./index.html">retornar para o início</a></li>

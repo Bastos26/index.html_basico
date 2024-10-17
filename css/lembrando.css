@@ -1,0 +1,38 @@
+body
+{margin: 50px 300px;
+font-size: larger;
+text-align: center;
+font-family: cursive;
+width: 700px;}
+.imagem{background-image: url("../galeria/imagem\ html.jpg");
+width: 500px;
+height: 500px;}
+.imagem2{background-image: url("../galeria/imagem\ html.jpg");width: 500px;height: 500px;
+    background-size: contain;}
+.imagem3{background-image: url("../galeria/imagem\ html.jpg");width: 500px;height: 500px;
+  background-size: cover  ;}
+  .imagem4{background-image: url("../galeria/imagem\ html.jpg");width: 500px;height: 500px;
+background-repeat: no-repeat;}
+.imagem5{background-image: url("../galeria/imagem\ html.jpg");width: 500px;height: 500px;
+background-repeat: repeat-x;}
+.imagem6{background-image: url("../galeria/imagem\ html.jpg");width: 500px;height: 500px;
+background-repeat: repeat-y;}
+.imagem7{background-image: url("../galeria/imagem\ html.jpg");width: 500px;height: 500px;
+background-repeat: initial;}
+#azul{width: 50vw;
+      height: 50vh;
+    background-color: blue;}
+#vermelha{width: 50vw;
+          height: 50vh;
+          background-color: red;}
+          .foto{height: 50%;}
+#gradiante{height: 500px;
+           width: 500px;
+          background:linear-gradient(10deg ,blue,green,red);}
+#lado{height: 500px;
+      width: 500px;
+       background:linear-gradient(blue,pink 30%,violet)}
+.eu{height: 500px;
+    width: 500px;
+  background: linear-gradient(blue,pink,30%,violet);}
+  
