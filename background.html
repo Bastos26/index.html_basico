@@ -1,36 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title>teste</title>
+        <title>background</title>
         <meta charset="UFT-8">
-        <link rel="stylesheet" href="./css/teste.css">
+        <link rel="stylesheet" href="./css/background.css">
     </head>
     <body>
         
         <h1>background</h1>
         
         <p>nesta aula em questão veremos as possibilidades ,que nos foi mostrada com este tema e seus poderes</p>
-        <ul>
-            <h3><li>background-color.</li></h3>
+            <h3>background-color.</h3>
             <p>com este elemento, podemos mudar a cor de fundo </p>
             <p class="cordefundo"></p>
-            <h3><li>background-image</li></h3>
+            <h3>background-image</h3>
             <p class="imagemteste"></p>
             <p>Com ela você utiliza uma imagem para aplicar no fundo.Assim como se introduz a imagem o html,no background image somente é possivel inserir com o endereço da imagem na web ou linkando com o arquivo no projeto</p>
-        </ul>
+        
         <br>
         <h3><ins>obs:</ins> é preciso usar o <mark> URL</mark> para ajudar a achar o arquivo</h3>
         <br>
         <h3><ins>obs:</ins>as dimensôes (width e heigth)são muito importantes . É a partir deles que vamos dizer o tamanho que queremos a imagem , cor de fundo e etc e sem eles ,não aparece nada.</h3>
         <br>
         <h3><ins>obs:</ins>Fundamentos importantes de serem relembrados:</h3>
-        <ul>
-            <li>1 Para fazer o requerimeto do <ins>Class</ins> no CSS, é necessária usar o ponto( . ).</li>
-            <Li>2 Para fazer o requerimento das Divs no <ins>CSS</ins>, é necessário o uso da Rashtag( # ).</ins>
-            <li>3 As Id´s e os Class podem se repetir durante o projeto mas se precisa ter atenção ao fazer o requerimento no css e a nomeação no html.</Li>
-           <!--- <p id="teste1"></p>
-            <p id="teste2"></p>--->
-        </ul>
+        
+            <p>1 Para fazer o requerimeto do <ins>Class</ins> no CSS, é necessária usar o ponto( . ).</li>
+            <p>2 Para fazer o requerimento das Divs no <ins>CSS</ins>, é necessário o uso da Rashtag( # ).</ins>
+            <h3> As Id´s e os Class podem se repetir durante o projeto mas se precisa ter atenção ao fazer o requerimento no css e a nomeação no html.</h3>
+        
+        
         <p>Existem um comportamento padrão , as imagens geralmente possuem uma dimensão especícfica , emtão o computadorr tem a tendência de repetir elas até que seja o suficiente para preencher a dimensão posta no css</p>
         <p class="imagemrepetindo"></p>
         <p>Este comportamento é solucionável </p>
@@ -64,39 +62,50 @@
         <h3>background-position</h3>
         <p>É uma espécie de complemento do <ins>background-repet</ins>.Como já sabemos ,o No-repet irá por a imagem ,com a dimensão original dela ,em um determinado setor da área em que estamos trabalhando o background.Com position você pode escolher .</p>
         <p>É possível por em 5 áreas:</p>
-        <ul>
-            <li>top rigth(superior direita)</li>
-            <p class="topodireita"></p>
-            <li>top left(superior esquerda)</li>
-            <p class="topoesquerda"></p>
-            <li>bottom rigth(inferior direita)</li>
-            <p class="inferiordireita"></p>
-            <li>bottom left(inferior esquerda)</li>
-            <p class="inferioresquerda"></p>
-            <li>center(centro)</li>
-            <p class="centro"></p>
-            </ul>
-            <h3>background-attachmente:fixed </h3>
-            <p>Geralmente a imagem fica como um fundo e, conforme vai rolando ,ela vai junto.Existe uma maneira de por um efeito onde faz com que a imagem de fundo não se mova e sim somente o texto .</p>
-            <br>
-            <h2>obs:Existe uma forma mais direta para usar todos essas possibilidades, basta usas <mar>background</mar> e por na ordem certa que é : <ins>cor,imagem,repeat,attachement e position.</ins></h2>
-            <h1>Back Ground Gradiante</h1>
-            <p class="gradiante2"></p>
-            <h3>background: linear-gradient</h3>
-            <p>Esta propriedade nos possibilita a criação dos planos de fundo com conjuto de cores,uma graduação passando de uma a outra</p>
-            <p>Para seu funcionamento,é necessario estar utilizando o procedimento de dinamismo do <mark>background</mark> , caso contrário , não irá funcionar. </p>
-            <p> background:linear-gradient(as cores que se deseja)</p>
-            <p>Normalmente o angulo da transição das cores é na vertical mas é possivel alterar isso também, basta por dentro do parenteses o angulo que se deseja e por <ins>deg</ins> mas existe outra maneira .</p>
-                <ul>
-                    <li>to left: para a esquerda</li>
-                    <li>to rigth: para a direita</li>
-                    <li>to top: para cima</li>
-                    <li>to bottom: para baixo</li>
-                </ul>
-            </li>
+        <p>top rigth(superior direita)</p>
+        <p class="topodireita"></p>
+        <p>top left(superior esquerda)</p>
+        <p class="topoesquerda"></p>
+        <p>bottom rigth(inferior direita)</p>
+        <p class="inferiordireita"></p>
+        <p>bottom left(inferior esquerda)</p>
+        <p class="inferioresquerda"></p>
+        <p>center(centro)</p>
+        <p class="centro"></p>
+        <h3>background-attachmente:fixed </h3>
+        <p>Geralmente a imagem fica como um fundo e, conforme vai rolando ,ela vai junto.Existe uma maneira de por um efeito onde faz com que a imagem de fundo não se mova e sim somente o texto .</p>
+        <br>
+        <h2>obs:Existe uma forma mais direta para usar todos essas possibilidades, basta usas <mar>background</mar> e por na ordem certa que é : <ins>cor,imagem,repeat,attachement e position.</ins></h2>
+        <br><br>
+        <div id="divisão"></div>
+        <h1>Back Ground Gradiante</h1>
+        <br>
+        <p class="gradiante2"></p>
+        <br>
+        <h3>background: linear-gradient</h3>
+        <p>Esta propriedade nos possibilita a criação dos planos de fundo com conjuto de cores,uma graduação passando de uma a outra</p>
+        <p>Para seu funcionamento,é necessario estar utilizando o procedimento de dinamismo do <mark>background</mark> , caso contrário , não irá funcionar. </p>
+        <p> background:linear-gradient(as cores que se deseja)</p>
+        <p>Normalmente o angulo da transição das cores é na vertical mas é possivel alterar isso também, basta por dentro do parenteses o angulo que se deseja e por <ins>deg</ins> mas existe outra maneira .</p>
+        <br>
+                    <h4>to left: para a esquerda</h4>
+                    <h4>to rigth: para a direita</h4>
+                    <h4>to top: para cima</h4>
+                    <h4>to bottom: para baixo</h4>
             <p>E com a sua junção , é possível inclina-los também(to botom rigth)</p>
             <p>Indenpendente do ângulo, sua transição sempre vai ser feita no meio , mas é possivel contrarmos isso tambem apenas colocando a porcentagem da cor no degradee ao lado da cor selecioanda além de citar o quão presnte vai estar a cor . é o mesmo procediemnto, a diferença é que com um vc coloca a porcentagem junto com a cor e com outro vc colocar a cor primeiro e separa a porcentagem com uma vírgula</p>
-            <p class="gradiante"></p>
+            <p class="gradiante"></p>    
         <a href="./index.html">voltar para a página inicial</a>
+        <br><br><br>
+        <a href="./fomação de texto.html">formação de texto</a>
+        <br><br><br>
+        <a href="./imagem.html">imagem</a>
+        <br><br><br>
+        <a href="./langediv.html">lang e div</a>
+        <br><br><br>
+        <a href="./link.html">link</a>
+        <br><br><br>
+        <a href="./lista.html">lista</a>
+        </a>
     </body>
 </html>

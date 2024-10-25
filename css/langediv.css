@@ -1,20 +1,20 @@
 body
-{margin: 50px 300px;
-font-size: larger;
-text-align: center;
+{text-align: center;
 font-family: cursive;
+margin: 50px 300px;
+font-size: large;   
 width: 700px;
-background: linear-gradient(rgb(200, 248, 242),white);}
-
-.h1
-{background-color: rgb(50, 240, 247);
-border-style: groove;
-border-color: black;
-border-radius: 5px;
-font-size: 70px;
+background: linear-gradient(rgb(200, 248, 242),white) 
 }
-.imagem1
-{height: 300px;}
+h1
+{background-color: rgb(50, 240, 247);
+    border-style: groove;
+    border-color: rgb(15, 15, 15);
+    border-radius: 5px;
+    font-size: 70px;
+    
+}
+
 a
 {text-decoration: none;
 background-color: rgb(43, 255, 0);
