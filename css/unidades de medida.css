@@ -1,0 +1,31 @@
+body
+{background: linear-gradient(rgb(200, 248, 242),white,rgb(200, 243, 243));
+font-size: larger;
+text-align: center;
+font-family: cursive;
+margin:50px 300px  ;
+width: 700px;
+}
+#imagem
+{background-image: url(../galeria/imagem\ unidade\ de\ medida.png);
+background-color: white;
+width: 700px;
+height: 160px;
+background-size:contain ;
+background-position: center;}
+#imagem2
+{background-image: url(../galeria/unidades\ de\ medida\ relativa.png);
+background-color: white;
+width: 700px;
+height: 200px;
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;}
+h1
+{background-color:aqua;
+font-size: 60px;
+border-style:groove;
+border-color:black;
+border-width: 2px;
+border-radius: 10px; }
+
