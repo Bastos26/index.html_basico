@@ -3,6 +3,13 @@
 width: 230px;
 height: 215px;
 margin-left: 230px;}
+#imagem2
+{background-image: url(../galeria/box\ model.jpeg);
+width: 510px;
+height: 350px;
+margin-left: 100px;
+background-size: contain;
+}
 body
 {margin: 50px 300px;
 font-size: larger;
