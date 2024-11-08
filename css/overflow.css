@@ -1,4 +1,37 @@
 #imagem
 {background-image: url(../galeria/images.jpeg);
 width: 300px;
-height: 300px;}
+height: 170px;
+margin-left: 190px;}
+body
+{font-size: large;
+width: 700px;
+text-align: center;
+font-family: cursive;
+margin-left: 300px;
+background:linear-gradient(rgb(187, 255, 232), white)}
+#exemplo
+{background-color: aquamarine;
+width: 500px;
+height: 500px;
+overflow: auto;
+margin-left: 100px;
+border-radius: 30px;}
+h1
+{background-color: rgb(50, 240, 247);
+border-style: groove;
+border-color: black;
+border-radius: 5px;
+font-size: 70px;}
+a
+{text-decoration: none;
+background-color: rgb(43, 255, 0);
+color: black;
+padding: 10px;
+margin:50px; 
+border-color: rgb(43, 255, 0);
+border-style: hidden;
+border-radius: 5px;}
+a:hover{padding: 15px;}
+
+
