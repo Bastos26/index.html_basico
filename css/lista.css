@@ -4,7 +4,8 @@ width: 700px;
 margin-left: 300px;
 font-family: cursive;
 background: linear-gradient(rgb(200, 248, 242),white);
-font-size: large;}
+font-size: large;
+list-style-position: inside;}
 h1
 {background-color:rgb(50, 240, 247) ;
 border-radius: 10px;
