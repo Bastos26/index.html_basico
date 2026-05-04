@@ -1,0 +1,14 @@
+body
+{margin: 0;
+padding: 0;
+text-align: center;
+}
+.logo
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 80px;
+    font-size: 80px;
+}

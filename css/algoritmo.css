@@ -13,8 +13,27 @@ border-color: black;
 border-radius: 5px;
 font-size: 70px;
 }
-.imagem1
-{height: 300px;}
+
+.exemplo
+{text-align: left;
+font-size: medium;
+margin: 200px,0,200px,0;}
+
+.lista1
+{text-align: left;
+}
+
+.visualg
+{height: 500px;
+width: 700px;}
+
+
+
+ul,ol
+{
+    text-align: left;
+}
+
 a
 {text-decoration: none;
 background-color: rgb(43, 255, 0);
@@ -26,4 +45,3 @@ border-style: hidden;
 border-radius: 5px;
 display: inline-block;}
 a:hover{padding: 15px;}
-
